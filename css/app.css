@@ -4,11 +4,11 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
-#newParallaxTarget > .row {
+#newParallaxTarget>.row {
 	margin: 0 !important;
 }
 
-.website_title{
+.website_title {
 	padding-top: 12%;
 	margin: auto 0 !important;
 }
@@ -84,30 +84,42 @@ hr.page_divider:before {
 footer {
 	background: #BED0B9;
 	opacity: 0.9;
-	height: 35vh;
 	width: 100%;
 	font-size: 9px;
 }
 
-footer div#info {
-	height: 90%;
+@media (max-width: 767.98px) {
+	footer {
+		height: 55h;
+	}
 }
 
-footer div#info div.row{
+@media (min-width: 768px) {
+	footer {
+		height: 40vh;
+	}
+}
+
+footer div#top_footer {
+	height: 94%;
+	margin: 0;
+}
+
+footer div#info div.row {
 	padding-top: 3%;
-	height:45%;
 	margin: 0;
 }
 
 footer div#credits {
-	height: 10%;
+	height: 6%;
 }
-footer div#credits > p {
+
+footer div#credits>p {
 	margin: 0;
 }
 
-div.modal-body > a {
-	background-color:black;
+div.modal-body>a {
+	background-color: black;
 	color: white;
 	text-decoration: none;
 	padding: 4px 6px;
