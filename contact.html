@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="kwheelerj">
+
+	<title>Mindful Living Counseling & Wellness</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+	<!-- ######################################## -->
+	<!-- START of SAME HEADER -->
+	<!-- ######################################## -->
+	<span id="hack" class="position-fixed"></span>
+	<div id="oldParallaxTarget" class="parallax_top">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="navbar-collapse collapse w-100 order-1 dual-collapse2">
+				<ul id="logo" class="navbar-nav mr-auto d-none">
+					<li class="nav-item active">
+						<i class="fa fa-leaf d-none d-md-block" aria-hidden="true"></i>
+						<a class="nav-link my-md home-link" href="index.html">Mindful Living</a>
+					</li>
+				</ul>
+			</div>
+			<div class="mx-auto order-0">
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+					data-target=".dual-collapse2">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<i class="fa fa-leaf d-none d-md-block" aria-hidden="true"></i>
+						<a class="nav-link my-md" href="onlinetherapy.html">Online Therapy</a>
+					</li>
+					<li class="nav-item">
+						<i class="fa fa-leaf d-none d-md-block" aria-hidden="true"></i>
+						<a class="nav-link my-md" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<i class="fa fa-leaf  d-none d-md-block" aria-hidden="true"></i>
+						<a class="nav-link my-md" href="specialities.html">Specialties</a>
+					</li>
+					<li class="nav-item">
+						<i class="fa fa-leaf d-none d-md-block" aria-hidden="true"></i>
+						<a class="nav-link my-md" href="faq.html">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<i class="fa fa-leaf d-none d-md-block" aria-hidden="true"></i>
+						<a class="nav-link my-md" href="contact.html"></i>Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- ######################################## -->
+		<!-- END of SAME HEADER -->
+		<!-- ######################################## -->
+
+
+		<!-- ######################################## -->
+		<!-- START of ACTUAL CONTENT FOR THIS PAGE -->
+		<!-- ######################################## -->
+
+	</div> <!-- NOTE: this "dangling /div, it is important (due to the dynamic parallax) to have this on each page! -->
+	<div id="triggerHack"></div> <!-- NOTE: this is VERY IMPORTANT; must exist on each page! -->
+
+	<div class="section container">
+		<div id="sending_message" class="alert_message d-none">
+			<p>Sending message, please wait...</p>
+		</div>
+		<div id="success_message" class="alert_message d-none">
+			Message has been sent successfully. You will be hearing from us soon
+		</div>
+		<div id="fail_message" class="alert_message d-none">
+			Sorry, but the message was unable to send. Please try again. You can also call or email us directly.
+		</div>
+		<div id="consult_message" class="alert_message d-none">
+			You have opted to do a consultation call with us. Please expect us to contact you
+			within the next 48 hours to set up the consultation. :)
+		</div>
+
+		<h4 class="section_title">Contact <span class="section_subtitle">We are here to help.</span>
+		</h4>
+
+		<div class="section_text">
+			<hr>
+			<p>If you are interested in getting started, feel free to call or email us at:</p>
+		</div>
+	</div>
+	<div class="contact_info row">
+		<div class="text-center mx-auto">
+			<h4>Phone: (470) 387-1878</h4>
+			<h4>Email: MindfulLivingCW@gmail.com</h4>
+		</div>
+	</div>
+	<div class="section container">
+		<hr>
+		<p>If you would like to schedule your first appointment immediately, please click:</p>
+		<div class="d-flex">
+			<div class="spwidget-button-wrapper mx-auto"><a href="https://mindful-living.clientsecure.me"
+					class="btn btn-primary spwidget-button"
+					data-spwidget-scope-id="0b356898-90e0-4b97-b77c-cd359a92ea5f"
+					data-spwidget-scope-uri="mindful-living"
+					data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b"
+					data-spwidget-scope-global data-spwidget-autobind>Schedule Now</a>
+			</div>
+		</div>
+		<hr class="page_divider">
+		<h6>Contact Form:</h6>
+		<!-- </div> -->
+
+		<form action="#" onsubmit="validate(); return false">
+
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="firstName">First Name</label>
+					<input type="text" class="form-control" id="firstName" placeholder="First Name" required
+						pattern="[a-zA-Z]{1,1}[a-zA-Z-']+(\s?[a-zA-Z-']+)?"
+						title="At least 2 characters.  First letter cannot be - or '.  No numbers.  No special characters.">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="lastName">Last Name</label>
+					<input type="text" class="form-control" id="lastName" placeholder="Last Name" required
+						pattern="[a-zA-Z]{1,1}[a-zA-Z-']+(\s?[a-zA-Z-']+)?"
+						title="At least 2 characters.  First letter cannot be - or '.  No numbers.  No special characters.">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-12">
+					<label for="emailAddress">Email</label>
+					<input type="email" class="form-control" id="emailAddress" placeholder="email" required
+						pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+(\.[a-zA-Z]{2,4})" title="example: test_123@email.com">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-12">
+					<label for="phoneNumber">Phone Number</label>
+					<input type="tel" class="form-control" id="phoneNumber" placeholder="123-456-7890" required
+						pattern="(\d{3}|\(\d{3}\))?(\s|-|\.)?\d{3}(\s|-|\.)\d{4}(\s*(ext|x|ext.)\s*\d{2,5})?"
+						title="Examples:123 456 7890  |  123-456-7890  |  123.456.7890  |  (123) 456-7890  |  123 456 7890 x12345">
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="location">Location</label>
+					<select id="location" class="form-control" required>
+						<option disabled value="" selected hidden>Choose...</option>
+						<option>FL</option>
+						<option>GA</option>
+						<option>International</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-group col-md-12">
+					<label for="what">What brings you in to therapy?</label>
+					<textarea class="form-control" id="what" rows="3" required title="This cannot be empty."></textarea>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="form-check">
+					<input id="phoneConsult" class="form-check-input" type="checkbox" id="gridCheck">
+					<label class="form-check-label" for="gridCheck">
+						Would you like to set up a 15-minute consultation call? (Check box for "yes")
+					</label>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="form-group col-md-9">
+					<label for="how">How did you hear about Mindful Living Counseling & Wellness?</label>
+					<select id="how" class="form-control" required>
+						<option disabled value="" selected hidden>Choose...</option>
+						<option>Google</option>
+						<option>Psychology Today</option>
+						<option>A Friend</option>
+						<option>A Wellness Provider</option>
+						<option>Instagram</option>
+						<option>Facebook</option>
+						<option>Other</option>
+					</select>
+				</div>
+			</div>
+
+
+			<button id="submit_button" type="submit" class="btn btn-primary">Submit Message to
+				Mindful Living Counseling & Wellness</button>
+		</form>
+
+		<hr class="page_divider">
+		<h3>Please Note:</h3>
+		<p>If your inquiry is not about making an appointment or a
+			question about our services, you will most likely not get a response.</p>
+		<p>We cannot legally or ethically give advice online to
+			people with whom we have not established a therapeutic
+			relationship.</p>
+		<p><strong>If you are experiencing a mental health emergency and
+				need an immediate response, please:</strong></p>
+		<ul>
+			<li>
+				<p>Call <strong>911</strong></p>
+			</li>
+			<li>
+				<p>Go to your nearest <strong>emergency room.</strong></p>
+			</li>
+			<li>
+				<p>Call the National Suicide Prevention lifeline at <strong>1-800-273-TALK (8255)</strong></p>
+			</li>
+		</ul>
+		<p>Thank you for your understanding. - Mindful Living Counseling & Wellness
+		</p>
+
+	</div>
+
+	<!-- ######################################## -->
+	<!-- END of ACTUAL CONTENT FOR THIS PAGE -->
+	<!-- ######################################## -->
+
+	<!-- ######################################## -->
+	<!-- START of SAME FOOTER -->
+	<!-- ######################################## -->
+	<!-- Privacy Modal -->
+	<div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="privacyModalCenter"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="privacyModalLongTitle">Privacy Policy</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h6>Our Contact Information</h6>
+					<p>
+						This privacy policy has been compiled to better serve those who are concerned with how their
+						‘Personally Identifiable Information’ (PII) is being used online. PII, as described in US
+						privacy law
+						and information security, is information that can be used on its own or with other information
+						to identify, contact, or locate a single person, or to identify an individual in context. Please
+						read
+						our privacy policy carefully to get a clear understanding of how we collect, use, protect or
+						otherwise handle your Personally Identifiable Information in accordance with our website.
+					</p>
+					<hr>
+					<h6>What personal information do we collect from the people that visit our blog, website or app?
+					</h6>
+					<p>
+						When ordering or registering on our site, as appropriate, you may be asked to enter your name,
+						email address or other details to help you with your experience.
+					</p>
+					<hr>
+					<h6>When do we collect information?</h6>
+					<p>
+						We collect information from you when you subscribe to a newsletter, fill out a form or enter
+						information on our site. This does not apply to the ‘Schedule Now’ button, this widget will
+						direct you to Simple Practice our HIPPA Compliant medical records system, which is encrypted
+						and secure.
+					</p>
+					<hr>
+					<h6>How do we use your information?</h6>
+					<p>iWe may use the information we collect from you when you register, make a purchase, sign up
+						for our newsletter, respond to a survey or marketing communication, surf the website, or use
+						certain other site features in the following ways:
+					</p>
+					<ul>
+						<li>To improve our website in order to better serve you.</li>
+						<li>To allow us to better service you in responding to your customer service requests.</li>
+						<li>To send periodic emails regarding your order or other products and services.</li>
+					</ul>
+					<hr>
+					<h6>How do we protect your information?</h6>
+					<p>We do not use vulnerability scanning and/or scanning to PCI standards.
+						We only provide articles and information.
+						We use regular Malware Scanning.
+						Your personal information is contained behind secured networks and is only accessible by a
+						limited number of persons who have special access rights to such systems, and are required to
+						keep the information confidential. In addition, all sensitive/credit information you supply is
+						encrypted via Secure Socket Layer (SSL) technology.
+						We implement a variety of security measures when a user enters, submits, or accesses their
+						information to maintain the safety of your personal information.
+						All transactions are processed through a gateway provider and are not stored or processed on
+						our servers.</p>
+					<hr>
+					<h6>Do we use ‘cookies’?</h6>
+					<p>
+						Yes. Cookies are small files that a site or its service provider transfers to your computer’s
+						hard
+						drive through your Web browser (if you allow) that enables the site’s or service provider’s
+						systems to recognize your browser and capture and remember certain information. For
+						instance, we use cookies to help us remember and process the items in your shopping cart.
+						They are also used to help us understand your preferences based on previous or current site
+						activity, which enables us to provide you with improved services. We also use cookies to help us
+						compile aggregate data about site traffic and site interaction so that we can offer better site
+						experiences and tools in the future.
+					</p>
+					<h6>We use cookies to:</h6>
+					<ul>
+						<li>Compile aggregate data about site traffic and site interactions in order to offer better
+							site experiences and tools in the future. We may also use trusted third-party services
+							that track this information on our behalf.</li>
+					</ul>
+					<p>
+						You can choose to have your computer warn you each time a cookie is being sent, or you can
+						choose to turn off all cookies. You do this through your browser settings. Since browser is a
+						little different, look at your browser’s Help Menu to learn the correct way to modify your
+						cookies.
+						If you turn cookies off, some features will be disabled. It won’t affect the user’s experience
+						that
+						make your site experience more efficient and may not function properly.
+						However, you will still be able to place orders .
+					</p>
+					<hr>
+					<h6>Third-party disclosure</h6>
+					<p>
+						We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable
+						Information unless we provide users with advance notice. This does not include website hosting
+						partners and other parties who assist us in operating our website, conducting our business, or
+						serving our users, so long as those parties agree to keep this information confidential. We may
+						also release information when it’s release is appropriate to comply with the law, enforce our
+						site policies, or protect ours or others’ rights, property or safety.
+						However, non-personally identifiable visitor information may be provided to other parties for
+						marketing, advertising, or other uses.
+					</p>
+					<h6>Third-party links</h6>
+					<p>
+						Occasionally, at our discretion, we may include or offer third-party products or services on our
+						website. These third-party sites have separate and independent privacy policies. We therefore
+						have no responsibility or liability for the content and activities of these linked sites.
+						Nonetheless, we seek to protect the integrity of our site and welcome any feedback about
+						these sites.
+					</p>
+					<hr>
+					<h6>Google</h6>
+					<p>
+						Google’s advertising requirements can be summed up by Google’s Advertising Principles. They
+						are put in place to provide a positive experience for
+						users. https://support.google.com/adwordspolicy/answer/1316548?hl=en
+						We use Google AdSense Advertising on our website.
+						Google, as a third-party vendor, uses cookies to serve ads on our site. Google’s use of the DART
+						cookie enables it to serve ads to our users based on previous visits to our site and other sites
+						on
+						the Internet. Users may opt-out of the use of the DART cookie by visiting the Google Ad and
+						Content Network privacy policy.
+					</p>
+					<h6>We have implemented the following:</h6>
+					<ul>
+						<li>Demographics and Interests Reporting</li>
+					</ul>
+					<p>
+						We, along with third-party vendors such as Google use first-party cookies (such as the Google
+						Analytics cookies) and third-party cookies (such as the DoubleClick cookie) or other third-party
+						identifiers together to compile data regarding user interactions with ad impressions and other
+						ad service functions as they relate to our website.
+					</p>
+					<h6>Opting out:</h6>
+					<p>
+						<strong>
+							Users can set preferences for how Google advertises to you using the Google Ad Settings
+							page. Alternatively, you can opt out by visiting the Network Advertising Initiative Opt Out
+							page or by using the Google Analytics Opt Out Browser add on.
+						</strong>
+					</p>
+					<hr>
+					<h6>California Online Privacy Protection Act</h6>
+					<p>
+						CalOPPA is the first state law in the nation to require commercial websites and online services
+						to post a privacy policy. The law’s reach stretches well beyond California to require any person
+						or company in the United States (and conceivably the world) that operates websites collecting
+						Personally Identifiable Information from California consumers to post a conspicuous privacy
+						policy on its website stating exactly the information being collected and those individuals or
+						companies with whom it is being shared. – See more at: http://consumercal.org/california-
+						online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf
+					</p>
+					<h6>According to CalOPPA, we agree to the following:</h6>
+					<p>
+						Users can visit our site anonymously.
+						Once this privacy policy is created, we will add a link to it on our home page or as a minimum,
+						on the first significant page after entering our website.
+						Our Privacy Policy link includes the word ‘Privacy’ and can easily be found on the page
+						specified
+						above.</p>
+					<p>You will be notified of any Privacy Policy changes:</p>
+					<ul>
+						<li>On our Privacy Policy Page</li>
+					</ul>
+					<p>Can change your personal information:</p>
+					<ul>
+						<li>By emailing us</li>
+						<li>By calling us</li>
+					</ul>
+					<hr>
+					<h6>How does our site handle Do Not Track signals?</h6>
+					<p>
+						We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do
+						Not Track (DNT) browser mechanism is in place.
+					</p>
+					<hr>
+					<h6>Does our site allow third-party behavioral tracking?</h6>
+					<p>
+						It’s also important to note that we allow third-party behavioral tracking
+					</p>
+					<hr>
+					<h6>COPPA (Children Online Privacy Protection Act)</h6>
+					<p>
+						When it comes to the collection of personal information from children under the age of 13
+						years old, the Children’s Online Privacy Protection Act (COPPA) puts parents in control. The
+						Federal Trade Commission, United States’ consumer protection agency, enforces the COPPA
+						Rule, which spells out what operators of websites and online services must do to protect
+						children’s privacy and safety online.
+						We do not specifically market to children under the age of 13 years old.
+					</p>
+					<hr>
+					<h6>Fair Information Practices</h6>
+					<p>
+						The Fair Information Practices Principles form the backbone of privacy law in the United States
+						and the concepts they include have played a significant role in the development of data
+						protection laws around the globe. Understanding the Fair Information Practice Principles and
+						how they should be implemented is critical to comply with the various privacy laws that protect
+						personal information.
+					</p>
+					<p>In order to be in line with Fair Information Practices we will take the following responsive
+						action, should a data breach occur
+						We will notify the users via in-site notification within 7 business days.
+					</p>
+					<p>
+						We also agree to the Individual Redress Principle which requires that individuals have the right
+						to legally pursue enforceable rights against data collectors and processors who fail to adhere
+						to
+						the law. This principle requires not only that individuals have enforceable rights against data
+						users, but also that individuals have recourse to courts or government agencies to investigate
+						and/or prosecute non-compliance by data processors.
+					</p>
+					<hr>
+					<h6>CAN SPAM Act</h6>
+					<p>
+						The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements
+						for commercial messages, gives recipients the right to have emails stopped from being sent to
+						them, and spells out tough penalties for violations.
+					</p>
+					<p>We collect your email address in order to:</p>
+					<p>To be in accordance with CANSPAM, we agree to the following:</p>
+					<p>If at any time you would like to unsubscribe from receiving future emails, you can email us at:
+					</p>
+					<h6>MindfulLivingCW@gmail.com</h6>
+					<p>and we will promptly remove you from ALL correspondence.</p>
+					<hr>
+					<h6>Contacting Us</h6>
+					<p>If there are any questions regarding this privacy policy, you may contact us using the
+						information below.
+					</p>
+					<p>MindfulLivingCW@gmail.com</p>
+					<p>Last Edited on 02/16/2020</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Privacy Modal -->
+	<!-- About Site Modal -->
+	<div class="modal fade" id="aboutWebsiteModal" tabindex="-1" role="dialog" aria-labelledby="aboutWebsiteModalCenter"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="aboutWebsiteModalLongTitle">About the website</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<h6>Home Page</h6>
+					<a href="https://unsplash.com/@timchowstudio?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Tim Chow"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Tim Chow</span></a>
+					<a href="https://unsplash.com/@jazminantoinette?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Jazmin Quaynor"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Jazmin Quaynor</span></a>
+					<a href="https://unsplash.com/@ericmuhr?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Eric Muhr"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Eric Muhr</span></a>
+					<a href="https://unsplash.com/@moino007?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from DDP"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">DDP</span></a>
+					<h6>Online Therapy</h6>
+					<a href="https://unsplash.com/@skyladesign?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Skyla Design"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Skyla Design</span></a>
+					<h6>About</h6>
+					<a href="https://unsplash.com/@skyladesign?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Skyla Design"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Skyla Design</span></a>
+					<h6>Specialties</h6>
+					<a href="https://unsplash.com/@karaeads?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Kara Eads"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Kara Eads</span></a>
+					<h6>FAQ</h6>
+					<a href="https://unsplash.com/@sarahdorweiler?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Sarah Dorweiler"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Sarah Dorweiler</span></a>
+					<h6>Contact</h6>
+					<a href="https://unsplash.com/@sarahdorweiler?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+						target="_blank" rel="noopener noreferrer"
+						title="Download free do whatever you want high-resolution photos from Sarah Dorweiler"><span
+							style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+								style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+								viewBox="0 0 32 32">
+								<title>unsplash-logo</title>
+								<path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+							</svg></span><span style="display:inline-block;padding:2px 3px">Sarah Dorweiler</span></a>
+					<hr>
+					<p>Website designed by kwheelerj</p>
+					<p>For inquiries, email: kwheelerj@gmail.com</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of About Site Modal -->
+
+	<footer>
+		<div id="info">
+			<div class="row">
+				<div class="text-center mx-auto">
+					<h4>Phone: (470) 387-1878</h4>
+					<h4>Email: MindfulLivingCW@gmail.com</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="mx-auto">
+					<div class="spwidget-button-wrapper"><a href="https://mindful-living.clientsecure.me"
+							class="btn btn-primary spwidget-button"
+							data-spwidget-scope-id="0b356898-90e0-4b97-b77c-cd359a92ea5f"
+							data-spwidget-scope-uri="mindful-living"
+							data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b"
+							data-spwidget-scope-global data-spwidget-autobind>Schedule Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="credits">
+			<p>&copy; 2020 Mindful Living Counseling and Wellness LLC.
+				<a href data-toggle="modal" data-target="#privacyModal">Privacy</a>
+				<a href class="float-right" data-toggle="modal" data-target="#aboutWebsiteModal">
+					About the website</a>
+			</p>
+		</div>
+	</footer>
+
+	<!-- Bootstrap core JavaScript
+================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"><\/script>')</script>
+	<script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script>
+
+	<!-- ######################################## -->
+	<!-- END of SAME FOOTER -->
+	<!-- ######################################## -->
+
+	<script src="js/pages.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="js/contact.js"></script>
+
+</body>
+
+</html>

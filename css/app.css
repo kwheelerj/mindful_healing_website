@@ -1,0 +1,119 @@
+body {
+	background: white;
+	height: 100%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#newParallaxTarget > .row {
+	margin: 0 !important;
+}
+
+.website_title{
+	padding-top: 12%;
+	margin: auto 0 !important;
+}
+
+.website_subtitle {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+.container {
+	max-width: 85%;
+}
+
+h6 {
+	font-weight: 600;
+}
+
+.section {
+	margin-top: 7vh;
+	margin-bottom: 7vh;
+}
+
+.section_title {
+	margin-bottom: 5vh;
+}
+
+.section_subtitle {
+	font-weight: 300;
+}
+
+.section_text {
+	font-weight: 100;
+	font-size: 1.125rem;
+	line-height: 2;
+}
+
+.btn-primary {
+	background-color: #EDD068;
+	border-color: #EDD068;
+	color: white;
+	font-weight: 500;
+}
+
+.btn-primary:hover {
+	background-color: #F5F6F7;
+	border-color: #EDD068;
+	color: #EDD068;
+}
+
+hr.page_divider {
+	overflow: visible;
+	/* For IE */
+	height: 30px;
+	border-style: solid;
+	border-color: #EDD068;
+	border-width: 3px 0 0 0;
+	border-radius: 35px;
+	margin-top: 49px;
+}
+
+hr.page_divider:before {
+	/* Not really supposed to work, but does */
+	display: block;
+	content: "";
+	height: 30px;
+	margin-top: -31px;
+	border-style: solid;
+	border-color: #EDD068;
+	border-width: 0 0 3px 0;
+	border-radius: 35px;
+}
+
+footer {
+	background: #BED0B9;
+	opacity: 0.9;
+	height: 35vh;
+	width: 100%;
+	font-size: 9px;
+}
+
+footer div#info {
+	height: 90%;
+}
+
+footer div#info div.row{
+	padding-top: 3%;
+	height:45%;
+	margin: 0;
+}
+
+footer div#credits {
+	height: 10%;
+}
+footer div#credits > p {
+	margin: 0;
+}
+
+div.modal-body > a {
+	background-color:black;
+	color: white;
+	text-decoration: none;
+	padding: 4px 6px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	display: inline-block;
+	border-radius: 3px
+}

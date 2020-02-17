@@ -1,0 +1,49 @@
+.parallax_top {
+	background: url(../imgs/skyla-design-haOIqIPSwps-unsplash.jpg);
+	height: 40vh;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+@supports (-webkit-touch-callout: none) {
+	.parallax_top {
+		background-attachment: scroll;
+	}
+}
+
+@supports not (-webkit-touch-callout: none) {
+	.parallax_top {
+		background-attachment: fixed;
+	}
+}
+
+#test_test {
+	padding: 10% 0 10% 0;
+}
+
+@media (max-width: 1500px) {
+	#test_test {
+		padding: 0;
+	}
+}
+
+.navbar {
+	font-size: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+	nav {
+		padding: .25rem 1rem .5rem 1rem !important;
+	}
+}
+
+@media (min-width: 768px) {
+	nav {
+		padding: .25rem 1rem .5rem 2rem !important;
+	}
+}
+
+div.section div.d-lg-none>img {
+	max-height: 65vh;
+	padding: 0 2rem 2rem 2rem;
+}
