@@ -19,26 +19,35 @@
 			<div class="col-md-10">
 				<h4 class="section_title">Specialities <span class="section_subtitle">Your Needs</span></h4>
 
-				<p class="section_text">We work with
-					a wide range of mental health concerns including depression,
-					anxiety, grief &amp; loss, self-esteem &amp; self-image, stress
-					management, life transitions, shame &amp; guilt, trauma, finding
-					purpose and meaning, caregiver support, older adult challenges,
-					professional workplace stress, anger management, addiction,
-					and LGBTQ+ concerns.
+				<div class="section_text">
+				<p>
+					At Mindful Living Counseling & Wellness, we offer therapy to individuals across the lifespan and
+					assist in helping our clients work through a myriad of mental health related concerns. Please see
+					our extensive list below.
+					If you don’t see your current concern listed below, feel free to reach out to our team, as we’re
+					happy to help you find the right fit regardless if it’s at Mindful Living or with another provider!
 				</p>
-
+				</div>
 				<div id="specialties_accordion">
 					<div class="card">
 						<button class="card-header" id="anxiety_heading" role="button" data-toggle="collapse"
 							data-target="#anxiety_collapse" aria-expanded="true" aria-controls="anxiety_collapse">
-							<h5>Anxiety</h5>
+							<h5>Anxiety / Stress Management</h5>
 						</button>
 
 						<div id="anxiety_collapse" class="collapse show" aria-labelledby="anxiety_heading"
 							data-parent="#specialties_accordion">
 							<div class="card-body section_text">
-								TODO
+								In this day and age, fear and worry are around us everywhere we turn. From reaching the
+								social standards that are set before us on social media - to living up to the
+								expectations of the generations before us, we have big shoes to fill. Many of these
+								expectations are simply not feasible and can feel nearly impossible to reach. At mindful
+								living we strive to help our clients break free from the social standards and feel
+								grounded in who they are today. We can begin to let go of worry by finding strength in
+								who we are, regardless of external expectations. By practicing mindfulness via deep
+								breathing, connection with the five senses, and meditation, our worries will begin to
+								melt away. At Mindful Living, we strive to help our clients bring awareness to what does
+								not serve us and aid in finding momentum for change and inner peace.
 							</div>
 						</div>
 					</div>
@@ -64,34 +73,58 @@
 							</div>
 						</div>
 					</div>
+
 					<div class="card">
-						<button class="card-header collapsed" id="stress_management_heading" role="button"
-							data-toggle="collapse" data-target="#stress_management_collapse" aria-expanded="false"
-							aria-controls="stress_management_collapse">
-							<h5>Stress Management</h5>
+						<button class="card-header collapsed" id="social_anxiety_heading" role="button"
+							data-toggle="collapse" data-target="#social_anxiety_collapse" aria-expanded="false"
+							aria-controls="social_anxiety_collapse">
+							<h5>Social Anxiety</h5>
 						</button>
 
-						<div id="stress_management_collapse" class="collapse"
-							aria-labelledby="stress_management_heading" data-parent="#specialties_accordion">
+						<div id="social_anxiety_collapse" class="collapse" aria-labelledby="social_anxiety_heading"
+							data-parent="#specialties_accordion">
+							<div class="card-body section_text">
+								The worry of what others will think of our appearance, speech, or unique quirks can
+								consume us from time to time. The stress of interacting with others can be overwhelming
+								and create fear, limiting our ability to pursue our dreams and aspirations. Often times
+								if we let go of external judgments and find contentment in who we are today, we can
+								arrive at internal confidence. If you feel uncomfortable in relating with others,
+								whether it’s coworkers, peers, family or friends, therapy can help you grow from this
+								space and find new ways to communicate and connect.
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<button class="card-header collapsed" id="relationship_issues_heading" role="button"
+							data-toggle="collapse" data-target="#relationship_issues_collapse" aria-expanded="false"
+							aria-controls="relationship_issues_collapse">
+							<h5>Relationship Issues</h5>
+						</button>
+
+						<div id="relationship_issues_collapse" class="collapse"
+							aria-labelledby="relationship_issues_heading" data-parent="#specialties_accordion">
 							<div class="card-body section_text">
 								TODO
 							</div>
 						</div>
 					</div>
+
 					<div class="card">
-						<button class="card-header collapsed" id="coping_skills_heading" role="button"
-							data-toggle="collapse" data-target="#coping_skills_collapse" aria-expanded="false"
-							aria-controls="coping_skills_collapse">
-							<h5>Coping Skills</h5>
+						<button class="card-header collapsed" id="womens_health_heading" role="button"
+							data-toggle="collapse" data-target="#womens_health_collapse" aria-expanded="false"
+							aria-controls="womens_health_collapse">
+							<h5>Women's Health</h5>
 						</button>
 
-						<div id="coping_skills_collapse" class="collapse" aria-labelledby="coping_skills_heading"
+						<div id="womens_health_collapse" class="collapse" aria-labelledby="womens_health_heading"
 							data-parent="#specialties_accordion">
 							<div class="card-body section_text">
 								TODO
 							</div>
 						</div>
 					</div>
+
 					<div class="card">
 						<button class="card-header collapsed" id="mens_counseling_heading" role="button"
 							data-toggle="collapse" data-target="#mens_counseling_collapse" aria-expanded="false"
@@ -140,24 +173,7 @@
 									what your struggling with: a life transition, divorce, trauma, loss for a partner or
 									friend, anger,
 									stress from work or home, etc, we can help you through this challenging time.
-									Feel free to reach out to us via phone or email to set up an initial intake
-									appointment and get
-									started today!</p>
-								<p>Here are some ways that therapy can help:</p>
-								<ul>
-									<li>To learn how to be present in the moment</li>
-									<li>To connect better and have meaningful intimate relationships</li>
-									<li>To work through anger and aggression</li>
-									<li>To improve communication in relationships</li>
-									<li>To find solutions to deal with stressors at work and home</li>
-									<li>To better emotional connectedness to self &amp; others</li>
-									<li>To connect with other men while keeping ‘manhood’</li>
-									<li>To learn about power &amp; control</li>
-									<li>To participate in self-care</li>
-									<li>To find a sense of direction and purpose in life</li>
-									<li>To engage in and express sexuality in a helpful way</li>
-									<li>To be the best family member and support</li>
-								</ul>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -178,20 +194,6 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="card">
-						<button class="card-header collapsed" id="trauma_heading" role="button" data-toggle="collapse"
-							data-target="#trauma_collapse" aria-expanded="false" aria-controls="trauma_collapse">
-							<h5>Trauma</h5>
-						</button>
-
-						<div id="trauma_collapse" class="collapse" aria-labelledby="trauma_heading"
-							data-parent="#specialties_accordion">
-							<div class="card-body section_text">
-								TODO
-							</div>
-						</div>
-					</div>
 					<div class="card">
 						<button class="card-header collapsed" id="aging_mature_adults_heading" role="button"
 							data-toggle="collapse" data-target="#aging_mature_adults_collapse" aria-expanded="false"
@@ -203,39 +205,22 @@
 							aria-labelledby="aging_mature_adults_heading" data-parent="#specialties_accordion">
 							<div class="card-body section_text">
 								<p>Through experience and knowledge comes great wisdom. Wisdom, although related to
-									knowledge, is quite distinct. It is a rare and exceptional attainment that cannot be
-									realized merely
-									from text. Some believe that it is acquired as time passes, involving insight and
-									deeper
-									understanding of human existence. Individuals in late life often have a collection
-									of stories and
-									tales that fill the chapters of their own existence. Therapy is complementary to
-									these mature
+									knowledge, is quite distinct. It is a rare and exceptional attainment that cannot
+									be realized merely from text. Some believe that it is acquired as time passes,
+									involving insight and deeper understanding of human existence.
+									Individuals in late life often have a collection of stories and tales that fill the
+									chapters of their own existence. Therapy is complementary to these mature
 									experiences and life events. By uniting therapy with wisdom, healing of the past can
-									begin to
-									take shape.</p>
+									begin to take shape.
+								</p>
 								<p>Navigating late life transitions can be challenging and quite complex. Holding on to
-									the past and
-									living in regret can hold us back from our full potential. Therapy unlocks the door
-									to the past by
-									exploring memories. As an older adult, you truly deserve fully healing from the past
-									by letting go
-									of regret.</p>
+									the past and living in regret can hold us back from our full potential.
+									Therapy unlocks the door to the past by exploring memories. As an older adult, you
+									truly deserve fully healing from the past by letting go of regret.
+								</p>
 								<p>Words by Aristotle, “Wisdom cannot be misused. To act wisely, is to act well; even as
-									to have
-									wisdom is to use it.”</p>
-								<p>Lindsey offers individual counseling for mature adults who want to continue to live a
-									full
-									and vibrant life. She can assist in processing grief, purpose, and memories and
-									experiences from the past are the threads that create the beautiful tapestry that we
-									call
-									life. Although the body and brain may develop ailments, the mind and spirit still
-									are
-									alive! Therapy is a wonderful tool that can help one continue experiencing all that
-									life
-									has to offer. She will sit beside you as you regain the treasure to live in the
-									moment,
-									while cherishing the past and arriving at peace with the future.</p>
+									to have wisdom is to use it.”
+								</p>
 							</div>
 						</div>
 					</div>
@@ -249,13 +234,13 @@
 						<div id="cognitive_decline_collapse" class="collapse"
 							aria-labelledby="cognitive_decline_heading" data-parent="#specialties_accordion">
 							<div class="card-body section_text">
-								Lindsey is specially trained to understand and know how to work with age related
-								cognitive decline. As we know, life is ever changing, as we get older if we misplace our
-								keys or forget to turn the stove off, we work to adapt. She will help you to accommodate
-								age related cognitive impairment. By bringing mindfulness and guided imagery into
-								session, we help to illumine your memories while activating your working memory. By
-								restoring hobbies, interest, and coping skills from the past you will find yourself
-								reflecting on the beauty before you, while enjoying every moment that is now.
+								At Mindful Living we are specially trained to understand and know how to work with age
+								related cognitive decline. As we know, life is ever changing, as we get older if we
+								misplace our keys or forget to turn the stove off, we work to adapt. We will help you
+								to accommodate age related cognitive impairment. By bringing mindfulness and guided
+								imagery into session, we help to illumine your memories while activating your working
+								memory. By restoring hobbies, interest, and coping skills from the past you will find
+								yourself reflecting on the beauty before you, while enjoying every moment that is now.
 							</div>
 						</div>
 					</div>
@@ -270,28 +255,29 @@
 						<div id="caretaker_support_collapse" class="collapse"
 							aria-labelledby="caretaker_support_heading" data-parent="#specialties_accordion">
 							<div class="card-body section_text">
-								<p>Physical and cognitive impairments affect not only the individual, but also family
-									members and
-									loved ones. Caregivers may face high stress, frustration, and guilt. Through
-									extensive work with
-									older adults, I’m aware of these stressors and specialize in helping caregivers
-									create coping
-									strategies to decrease stress and caregiver fatigue. I take pride in helping my
-									clients find peace
-									with their decisions throughout the late life process.</p>
 								<p>It’s important to know when to ask for help, counseling and support to caregivers can
+									be crucial in supporting your loved one. Cognitive decline and physical ailments can
+									impact the family system greatly. We know that navigating late life transitions can
 									be
-									crucial in supporting your loved one. Cognitive decline and physical ailments can
-									impact
-									the family system greatly. We know that navigating late life transitions can be
 									challenging, not only for the individual, but also for family members and their
 									loved
-									ones. Caregivers may face high stress, frustration, and guilt. Lindsey helps to
-									bring
-									awareness to these stressors and specializes in helping caregivers create coping
-									strategies to decrease stress and caregiver fatigue. Moreover, she understands that
-									navigating senior care and the healthcare system, can be extremely challenging. She
-									can help you to find peace, with your decisions throughout the process.</p>
+									ones. Caregivers may face high stress, frustration, and guilt. Our threapists help
+									to
+									bring awareness to these stressors and specializes in helping caregivers create
+									coping
+									strategies to decrease stress and caregiver fatigue. Moreover, we understand that
+									navigating senior care and the healthcare system, can be extremely challenging.
+									We can help you to find peace, with your decisions throughout the process.
+								</p>
+								<p>Physical and cognitive impairments affect not only the individual, but also family
+									members and loved ones. Caregivers may face high stress, frustration, and guilt.
+									Through extensive work with older adults, We are aware of these stressors and
+									specialize
+									in helping caregivers create coping strategies to decrease stress and caregiver
+									fatigue.
+									At Mindful Living we take pride in helping my
+									clients find peace with their decisions throughout the late life process.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -306,7 +292,8 @@
 						<div id="grief_loss_collapse" class="collapse" aria-labelledby="grief_loss_heading"
 							data-parent="#specialties_accordion">
 							<div class="card-body section_text">
-								Lindsey is here to support, care, and assist you when you lose someone special and
+								Mindful Living is here to support, care, and assist you when you lose someone special
+								and
 								dear. The stages of grief are not as rigid as one may think, in that they flow with the
 								currents of the sea. Some days may be more taxing than other, all the while we are
 								passionate to help you find peace. Our safe and healing space allows for contemplation
@@ -314,48 +301,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card">
-						<button class="card-header collapsed" id="relationship_issues_heading" role="button"
-							data-toggle="collapse" data-target="#relationship_issues_collapse" aria-expanded="false"
-							aria-controls="relationship_issues_collapse">
-							<h5>Relationship Issues</h5>
-						</button>
 
-						<div id="relationship_issues_collapse" class="collapse"
-							aria-labelledby="relationship_issues_heading" data-parent="#specialties_accordion">
-							<div class="card-body section_text">
-								TODO
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<button class="card-header collapsed" id="self_esteem_issues_heading" role="button"
-							data-toggle="collapse" data-target="#self_esteem_issues_collapse" aria-expanded="false"
-							aria-controls="self_esteem_issues_collapse">
-							<h5>Self Esteem</h5>
-						</button>
-
-						<div id="self_esteem_issues_collapse" class="collapse"
-							aria-labelledby="self_esteem_issues_heading" data-parent="#specialties_accordion">
-							<div class="card-body section_text">
-								TODO
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<button class="card-header collapsed" id="anger_management_heading" role="button"
-							data-toggle="collapse" data-target="#anger_management_collapse" aria-expanded="false"
-							aria-controls="anger_management_collapse">
-							<h5>Anger Management</h5>
-						</button>
-
-						<div id="anger_management_collapse" class="collapse" aria-labelledby="anger_management_heading"
-							data-parent="#specialties_accordion">
-							<div class="card-body section_text">
-								TODO
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 

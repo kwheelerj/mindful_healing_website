@@ -44,8 +44,6 @@
 								space. Her inquisitive nature allows her to use many diverse
 								therapeutic approaches to identify the best fit for her clients’
 								needs.
-							</p>
-							<p class="d-none d-xl-block">
 								Lindsey has developed a strong approach to therapy using
 								Mindfulness, Meditation &amp; Guided Imagery, Cognitive
 								Behavioral Therapy, Dialectical Behavioral Therapy and
@@ -56,18 +54,9 @@
 							</p>
 						</div>
 						<div class="d-none d-lg-block col-lg-5">
-							<img class="img-fluid mx-auto" src="imgs/IMG_0450-color.jpg">
+							<img class="img-fluid mx-auto" src="imgs/IMG_20190519_121609-ANIMATION.gif">
 						</div>
 					</div>
-					<p class="d-xl-none">
-						Lindsey has developed a strong approach to therapy using
-						Mindfulness, Meditation &amp; Guided Imagery, Cognitive
-						Behavioral Therapy, Dialectical Behavioral Therapy and
-						Existential Therapy. She is empathetic in her approach to
-						counseling and wellness and is skilled at building rapport with
-						her clients. Her kind nature will allow you to feel welcome to
-						process though life’s most challenging moments.
-					</p>
 					<p>During her time at UF she completed her
 						clinicals at the Florida Recovery Center, while coordinating
 						research studies at UF’s Clinical and Translational Science

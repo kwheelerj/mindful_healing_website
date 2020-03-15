@@ -79,8 +79,8 @@
 						At Mindful Living Counseling &amp; Wellness we strive to provide a warm and calming environment
 						for you to feel at
 						ease in processing through whatever challenges life may present.
-						Our therapist’s intuitive nurturing style allows her to quickly and easily build a strong
-						therapeutic relationship with her clients.
+						Our therapist’s intuitive nurturing style allows them to quickly and easily build a strong
+						therapeutic relationship with their clients.
 						By using an underpinning of Mindfulness, we can begin to re-center the mind,
 						creating greater joy, freedom from worry and decreased stress.
 						We incorporate an eclectic approach providing clients with a specialized style tailored to
@@ -89,7 +89,7 @@
 						Dialectical Behavioral Therapy and Existential Therapy, just to name a few.
 					</p>
 
-					<a type="button" class="btn btn-primary" href="specialities.php">Specialties</a>
+					<a href="specialities.php"><div class="btn btn-primary">Specialties</div></a>
 
 				</div>
 			</div>
@@ -122,7 +122,8 @@
 						walking beside you to help you develop strategies for coping and positive change.
 					</p>
 
-					<a type="button" class="btn btn-primary" href="about.php">About</a>
+					<!-- <a type="button" class="btn btn-primary" href="about.php">About</a> -->
+					<a href="about.php"><div class="btn btn-primary">About</div></a>
 
 				</div>
 			</div>

@@ -17,16 +17,6 @@
 	}
 }
 
-#test_test {
-	padding: 10% 0 10% 0;
-}
-
-@media (max-width: 1500px) {
-	#test_test {
-		padding: 0;
-	}
-}
-
 .navbar {
 	font-size: 1.5rem;
 }

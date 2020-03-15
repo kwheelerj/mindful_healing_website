@@ -44,52 +44,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card">
-						<button class="card-header collapsed" id="question02_heading" role="button" data-toggle="collapse"
-							data-target="#question02_collapse" aria-expanded="false"
-							aria-controls="question02_collapse">
-							<h5>What is your primary theoretical approach to therapy?</h5>
-						</button>
-						<div id="question02_collapse" class="collapse" aria-labelledby="question02_heading"
-							data-parent="#faq_accordion">
-							<div class="card-body section_text">
-								At Mindful Living our therapeutic alignment is psychodynamic, providing clients with a
-								specialized approach tailored to their individualized needs. We use Mindfulness-based
-								CBT, Trauma-Informed Therapy, Meditation &amp; Guided Imagery, Somatic Experiencing,
-								Dialectical Behavioral Therapy, Motivational Interviewing, and Existential Therapy. We
-								incorporate a holistic mind-body-spirit framework and use neurobiological,
-								psychological, and social principals.
-							</div>
-						</div>
-					</div>
-					<div class="card">
-						<button class="card-header collapsed" id="question03_heading" role="button" data-toggle="collapse"
-							data-target="#question03_collapse" aria-expanded="false"
-							aria-controls="question03_collapse">
-							<h5>Can therapy really help me?</h5>
-						</button>
-						<div id="question03_collapse" class="collapse" aria-labelledby="question03_heading"
-							data-parent="#faq_accordion">
-							<div class="card-body section_text">
-								<p>Therapy can give you support, validation, coping skills, and strategies to change
-									your
-									perspective and your behaviors. It can give you greater peace of mind and help you
-									tolerate difficult feelings and situations. It can give you a “corrective emotional
-									experience:” your therapist creates a safe, non-judgmental space for you to express
-									yourself authentically and may “get” you in a way that no one else has. When this
-									happens, it is extremely powerful and transformative.</p>
-								<p>Therapy cannot change other people or external circumstances. Therapists provide
-									psychoeducation, feedback, and guidance, but they don’t give advice or answers. If
-									you’re new to therapy, or are exploring unprocessed trauma, therapy may make you
-									feel a
-									bit worse before you feel better.</p>
-								<p>I can’t tell you how long it will take for you to feel better. But, generally, the
-									more
-									you
-									put into therapy, the more you’ll get out of it.A</p>
-							</div>
-						</div>
-					</div>
+
 					<div class="card">
 						<button class="card-header collapsed" id="question04_heading" role="button" data-toggle="collapse"
 							data-target="#question04_collapse" aria-expanded="false"
@@ -186,7 +141,7 @@
 						<button class="card-header collapsed" id="question08_heading" role="button" data-toggle="collapse"
 							data-target="#question08_collapse" aria-expanded="false"
 							aria-controls="question08_collapse">
-							<h5>How often do and for how long do I need therapy?</h5>
+							<h5>How often and for how long do I need therapy?</h5>
 						</button>
 						<div id="question08_collapse" class="collapse" aria-labelledby="question08_heading"
 							data-parent="#faq_accordion">
@@ -201,6 +156,52 @@
 								therapeutic progress which allows for a more productive outcome. As far as amount of
 								time, it depends on your particular situation and what you are wanting out of therapy.
 								Generally, though, change takes time.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<button class="card-header collapsed" id="question02_heading" role="button" data-toggle="collapse"
+							data-target="#question02_collapse" aria-expanded="false"
+							aria-controls="question02_collapse">
+							<h5>What is your primary theoretical approach to therapy?</h5>
+						</button>
+						<div id="question02_collapse" class="collapse" aria-labelledby="question02_heading"
+							data-parent="#faq_accordion">
+							<div class="card-body section_text">
+								At Mindful Living our therapeutic alignment is psychodynamic, providing clients with a
+								specialized approach tailored to their individualized needs. We use Mindfulness-based
+								CBT, Trauma-Informed Therapy, Meditation &amp; Guided Imagery, Somatic Experiencing,
+								Dialectical Behavioral Therapy, Motivational Interviewing, and Existential Therapy. We
+								incorporate a holistic mind-body-spirit framework and use neurobiological,
+								psychological, and social principals.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<button class="card-header collapsed" id="question03_heading" role="button" data-toggle="collapse"
+							data-target="#question03_collapse" aria-expanded="false"
+							aria-controls="question03_collapse">
+							<h5>Can therapy really help me?</h5>
+						</button>
+						<div id="question03_collapse" class="collapse" aria-labelledby="question03_heading"
+							data-parent="#faq_accordion">
+							<div class="card-body section_text">
+								<p>Therapy can give you support, validation, coping skills, and strategies to change
+									your
+									perspective and your behaviors. It can give you greater peace of mind and help you
+									tolerate difficult feelings and situations. It can give you a “corrective emotional
+									experience:” your therapist creates a safe, non-judgmental space for you to express
+									yourself authentically and may “get” you in a way that no one else has. When this
+									happens, it is extremely powerful and transformative.</p>
+								<p>Therapy cannot change other people or external circumstances. Therapists provide
+									psychoeducation, feedback, and guidance, but they don’t give advice or answers. If
+									you’re new to therapy, or are exploring unprocessed trauma, therapy may make you
+									feel a
+									bit worse before you feel better.</p>
+								<p>I can’t tell you how long it will take for you to feel better. But, generally, the
+									more
+									you
+									put into therapy, the more you’ll get out of it.A</p>
 							</div>
 						</div>
 					</div>
