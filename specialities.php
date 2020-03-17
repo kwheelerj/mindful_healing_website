@@ -20,13 +20,15 @@
 				<h4 class="section_title">Specialities <span class="section_subtitle">Your Needs</span></h4>
 
 				<div class="section_text">
-				<p>
-					At Mindful Living Counseling & Wellness, we offer therapy to individuals across the lifespan and
-					assist in helping our clients work through a myriad of mental health related concerns. Please see
-					our extensive list below.
-					If you don’t see your current concern listed below, feel free to reach out to our team, as we’re
-					happy to help you find the right fit regardless if it’s at Mindful Living or with another provider!
-				</p>
+					<p>
+						At Mindful Living Counseling & Wellness, we offer therapy to individuals across the lifespan and
+						assist in helping our clients work through a myriad of mental health related concerns. Please
+						see
+						our extensive list below.
+						If you don’t see your current concern listed below, feel free to reach out to our team, as we’re
+						happy to help you find the right fit regardless if it’s at Mindful Living or with another
+						provider!
+					</p>
 				</div>
 				<div id="specialties_accordion">
 					<div class="card">
@@ -94,6 +96,30 @@
 							</div>
 						</div>
 					</div>
+
+
+					<div class="card">
+						<button class="card-header collapsed" id="professionals_heading" role="button"
+							data-toggle="collapse" data-target="#professionals_collapse" aria-expanded="false"
+							aria-controls="professionals_collapse">
+							<h5>Professionals</h5>
+						</button>
+
+						<div id="professionals_collapse" class="collapse" aria-labelledby="professionals_heading"
+							data-parent="#specialties_accordion">
+							<div class="card-body section_text">
+								Often times we hear the phrase work/life balance, yet for many it seems hardly
+								attainable. Between navigating the stressors that present at work with our co-workers to
+								managing expectations of a large company, the pressure can get overwhelming. At Mindful
+								Living we have helped numerous individuals to thrive within a professional environment
+								for years. If you’re looking for help in sharpening workplace communication skills,
+								setting professional boundaries, or managing organizational expectation, amongst others,
+								you’ve come to the right place. It’s okay to get help, especially when managing the
+								stress of a challenging organization!
+							</div>
+						</div>
+					</div>
+
 
 					<div class="card">
 						<button class="card-header collapsed" id="relationship_issues_heading" role="button"

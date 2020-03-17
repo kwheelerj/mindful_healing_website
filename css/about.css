@@ -37,3 +37,7 @@ div.section div.d-lg-none>img {
 	max-height: 65vh;
 	padding: 0 2rem 2rem 2rem;
 }
+
+h6 {
+	padding-bottom: 1rem;
+}
