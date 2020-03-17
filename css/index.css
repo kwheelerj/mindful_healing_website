@@ -33,15 +33,6 @@
 	margin-bottom: 10vh;
 }
 
-.website_title_container {
-
-}
-/* @media (max-width: 600px) {
-	.website_title {
-		font-size: 2.5rem;
-	}
-} */
-
 @supports (-webkit-touch-callout: none) {
 	.parallax_top {
 		background-attachment: scroll;
