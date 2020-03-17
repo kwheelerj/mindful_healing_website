@@ -13,8 +13,7 @@
 			<div class="row">
 				<div class="col-md-4"></div>
 				<div class="website_title_container col-md-8 text-center">
-					<h1 class="display-4 website_title">Mindful Living</h1>
-					<h3 class="website_subtitle">Counseling & Wellness</h3>
+					<img id="logo_img" src="imgs/mindful-healing-cw_logo.png" class="rounded-circle img-thumbnail">
 				</div>
 			</div>
 			<div id="triggerHack"></div> <!-- NOTE: this is VERY IMPORTANT; must exist on each page! -->

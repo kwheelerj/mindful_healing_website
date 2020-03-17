@@ -1,6 +1,6 @@
 .navbar {
 	opacity: 0.9;
-	min-height: 10vh;
+	/* min-height: 10vh; */
 	font-weight: 300;
 	font-size: 1.65rem;
 	padding: 7% 10% 0% 10%;
