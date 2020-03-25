@@ -1,0 +1,73 @@
+footer {
+	background: #BED0B9;
+	opacity: 0.9;
+	width: 100%;
+	font-size: 9px;
+}
+
+@media (max-width: 767.98px) {
+	footer {
+		height: 55h;
+	}
+}
+
+@media (min-width: 768px) {
+	footer {
+		height: 40vh;
+	}
+}
+
+footer div#top_footer {
+	height: 94%;
+	margin: 0;
+}
+
+footer div#info div#contact_info {
+	padding-top: 3%;
+	margin: 0;
+	color: #476343;
+}
+
+footer div#credits {
+	height: 6%;
+}
+
+footer div#credits>p {
+	margin: 0;
+}
+
+div.modal-body>a {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 4px 6px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.2;
+	display: inline-block;
+	border-radius: 3px
+}
+
+.fa-facebook {
+	color: #476343;;
+	font-size: 1.2rem;
+	padding-right:.75rem;
+}
+.fa-instagram {
+	color: #476343;;
+	font-size: 1.2rem;
+	padding-left:.75rem;
+}
+
+footer div#info div#schedule_now {
+	padding-top: 1%;
+}
+
+.spwidget-button-wrapper {
+	margin-bottom: 0.7rem;
+}
+
+#social_media_icons i {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
