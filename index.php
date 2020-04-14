@@ -9,15 +9,15 @@
 <body>
 	<?php readfile('partials/my_navbar.html') ?>
 
-		<div id="newParallaxTarget">
-			<div class="row">
-				<div class="col-md-4"></div>
-				<div class="website_title_container col-md-8 text-center">
-					<img id="logo_img" src="imgs/mindful-healing-cw_logo.png" class="rounded-circle img-thumbnail">
-				</div>
+	<div id="newParallaxTarget">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="website_title_container col-md-8 text-center">
+				<img id="logo_img" src="imgs/mindful-living-cw-logo_round.png" class="rounded-circle img-thumbnail">
 			</div>
-			<div id="triggerHack"></div> <!-- NOTE: this is VERY IMPORTANT; must exist on each page! -->
 		</div>
+		<div id="triggerHack"></div> <!-- NOTE: this is VERY IMPORTANT; must exist on each page! -->
+	</div>
 
 	</div> <!-- NOTE: this "dangling /div, it is important (due to the dynamic parallax) to have this on each page! -->
 
@@ -38,7 +38,7 @@
 					times to fit your busy schedule, morning, noon, and night. If you would like to try it out
 					prior to scheduling your initial intake session, we are happy to offer a complementary
 					15-minute video or phone session. We are taking on new clients who currently reside in
-					Florida, Georgia, and Internationally.
+					Florida, Georgia, New Jersey, and Internationally.
 				</p>
 			</div>
 
@@ -88,7 +88,9 @@
 						Dialectical Behavioral Therapy and Existential Therapy, just to name a few.
 					</p>
 
-					<a href="specialities.php"><div class="btn btn-primary">Specialties</div></a>
+					<a href="specialities.php">
+						<div class="btn btn-primary">Specialties</div>
+					</a>
 
 				</div>
 			</div>
@@ -122,11 +124,21 @@
 					</p>
 
 					<!-- <a type="button" class="btn btn-primary" href="about.php">About</a> -->
-					<a href="about.php"><div class="btn btn-primary">About</div></a>
+					<a href="about.php">
+						<div class="btn btn-primary">About</div>
+					</a>
 
 				</div>
 			</div>
 		</div>
+		<!-- 
+		<hr class="page_divider d-none d-sm-block">
+		<div class="row align-items-center">
+			<div class="embed-responsive embed-responsive-4by3">
+  				<iframe class="embed-responsive-item" src="res/Ebook-MindfulLiving.pdf" allowfullscreen></iframe>
+			</div>
+		</div>
+		-->
 	</div>
 
 	<?php readfile('partials/my_footer.html') ?>

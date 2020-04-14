@@ -27,7 +27,7 @@
 				</div>
 
 				<h5>LINDSEY RICHARDS, LHMC, NCC, M.ED., ED.S.</h5>
-				<h6>Adolescent, Adult, &amp; Older Adult Psychotherapist</h6>
+				<h6>Owner of Mindful Living Counseling &amp; Wellness</h6>
 				<div class="section_text">
 					<div class="row">
 						<div id="test_test" class="col-lg-7">
@@ -44,24 +44,33 @@
 								space. Her inquisitive nature allows her to use many diverse
 								therapeutic approaches to identify the best fit for her clients’
 								needs.
-								Lindsey has developed a strong approach to therapy using
-								Mindfulness, Meditation &amp; Guided Imagery, Cognitive
-								Behavioral Therapy, Dialectical Behavioral Therapy and
-								Existential Therapy. She is empathetic in her approach to
+								She is empathetic in her approach to
 								counseling and wellness and is skilled at building rapport with
 								her clients. Her kind nature will allow you to feel welcome to
-								process though life’s most challenging moments.
-							</p>
+								process though life’s most challenging moments.</p>
+								<p>
+								Lindsey has developed a strong approach to therapy using:
+								</p>
+								<ul>
+								<li>Mindfulness</li>
+								<li>Meditation &amp; Guided Imagery</li>
+								<li>Cognitive Behavioral Therapy</li>
+								<li>Dialectical Behavioral Therapy</li>
+								<li>Existential Therapy</li>
+								<li>Generation Trauma therapy</li>
+								<li>Somatic Experiencing</li>
+								</ul>
 						</div>
 						<div class="d-none d-lg-block col-lg-5">
-							<img class="img-fluid mx-auto" src="imgs/IMG_20190519_121609-ANIMATION.gif">
+							<img class="img-fluid mx-auto" src="imgs/lindsey_aboutme.jpg">
 						</div>
 					</div>
-					<p>During her time at UF she completed her
+					<p>During her time at the University of Florida she completed her
 						clinicals at the Florida Recovery Center, while coordinating
 						research studies at UF’s Clinical and Translational Science
 						Institute &amp; Institute on Aging. Throughout the past decade
-						Lindsey has worked in many levels of care, which enables her to
+						Lindsey has worked in many levels of care, from private practice
+						to inpatient, which enables her to
 						work with individuals struggling with an array of mental health
 						concerns.
 					</p>

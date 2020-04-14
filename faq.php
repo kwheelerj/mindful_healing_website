@@ -46,30 +46,6 @@
 					</div>
 
 					<div class="card">
-						<button class="card-header collapsed" id="question04_heading" role="button" data-toggle="collapse"
-							data-target="#question04_collapse" aria-expanded="false"
-							aria-controls="question04_collapse">
-							<h5>How much does a counseling session cost and how can I pay?</h5>
-						</button>
-						<div id="question04_collapse" class="collapse" aria-labelledby="question04_heading"
-							data-parent="#faq_accordion">
-							<div class="card-body section_text">
-								Therapy sessions can by paid for by debit, credit card or HSA via our online portal. All
-								sessions
-								are paid in full at the beginning of each session so the business can be out of the way
-								and you
-								can have your needs addressed and we can focus on the issue at hand.
-								If you are interested in using insurance, I am happy to provide a Superbill for you to
-								submit to
-								your PPO insurance for reimbursement for sessions. My current fee for a 50 minute
-								session is
-								$135. Sliding scale is offered to individuals on a scholarship basis, please feel free
-								to inquire via
-								our ‘contact’ page.
-							</div>
-						</div>
-					</div>
-					<div class="card">
 						<button class="card-header collapsed" id="question05_heading" role="button" data-toggle="collapse"
 							data-target="#question05_collapse" aria-expanded="false"
 							aria-controls="question05_collapse">

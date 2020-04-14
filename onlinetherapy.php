@@ -20,12 +20,11 @@
 						home</span>
 				</h4>
 				<div class="section_text">
-					<p>The World Health Organization has characterized the Coronavirus or COVID-19 as a pandemic,
-						affecting the lives of individuals across the world. We realize that current concerns with
+					<p> We realize that current concerns with
 						COVID-19, have created a sense of stress and worry internationally. We’re prepared to help
-						individuals who are facing high amounts of stress and anxiety during this time. Likewise, we’re
-						equip to help you while you stay home from work or school. Due to the current international
-						crisis, we’re offering our sliding scale rate of $100 per hour to new clients.</p>
+						individuals who are facing high amounts of stress and anxiety during this time. Likewise, we
+						are equipped to help you while you stay home from work or school. Due to the current international
+						crisis, we’re offering our sliding scale rate to new clients.</p>
 
 					<p>If you would like to try it out prior to scheduling your initial intake session, we are happy to
 						offer a complementary 15-minute phone session. We are taking on new clients who currently reside
